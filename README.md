@@ -179,8 +179,8 @@ In order to be able to parse the yaml file, you can do the following:
 ```java
 public class Person {
     @YamlProperty(key = "name")
-    private String firstName;
-    private String lastName;
+    public String firstName;
+    public String lastName;
 }
 ```
    
